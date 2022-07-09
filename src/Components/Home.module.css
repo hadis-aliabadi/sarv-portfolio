@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+   
+    background: rgb(160,210,235);
+    background: linear-gradient(180deg, rgba(160,210,235,1) 10%, rgba(208,189,244,1) 37%, rgba(132,88,179,1) 79%, rgba(162,128,137,1) 90%);
+}

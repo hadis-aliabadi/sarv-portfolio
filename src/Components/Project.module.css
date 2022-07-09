@@ -1,0 +1,63 @@
+.container{
+    border-radius: 10%;
+    background: rgb(160,210,235);
+    background: linear-gradient(180deg, rgba(160,210,235,1) 10%, rgba(208,189,244,1) 37%, rgba(132,88,179,1) 79%, rgba(162,128,137,1) 90%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 250px repeat(3,70px) ;
+  grid-gap: 25px;
+  align-content: center;
+  justify-content: center;
+  
+}
+.image {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+  }
+
+  .cardtitle{
+    text-align: center;
+    font-size: 19px;
+    padding: 25px;
+    color: #ffffff;
+  }
+  
+.projectsitemlinks{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+  .btn{
+  background-color: rgba(0,14,255,1);
+  border-radius: 2rem;
+  border: 2px solid rgba(0,14,255,1);
+  padding: 0.5rem 1.5rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-weight: 500;
+ }
+ .btn a{
+  text-decoration: none;
+  color: #ffffff;
+ }
+ .projectsitemlinks a:hover {
+  background-color: rgba(0,14,255,1);
+  color: rgba(0,14,255,1);
+}
+
+.projectsitemlinks a:hover {
+  background-color: #181a1b;
+}
+
+p{
+    color: rgba(172, 172, 172, 0.8);
+    padding: 10px;
+    text-align: center;
+
+  }

@@ -1,0 +1,76 @@
+.container{
+    margin: 50px 200px 50px 200px;
+    
+}
+
+.progressbar{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    gap:10px;
+    margin-top: 70px;
+}
+
+.bars{
+    padding-right:150px;
+    padding-left:150px;
+}
+
+.title{
+    grid-column: 2/3;
+    text-align: center;
+    padding: 25px;
+    font-size: 27px;
+    color: rgba(0,14,255,1);
+}
+
+.title:before , .title:after{
+    background-color: #ffffff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 9%;
+}
+
+.title:before{
+    right: 0.5rem;
+    margin-left: -50%;
+}
+
+.title:after{
+    left: 0.5rem;
+    margin-right: -50%;
+}
+
+@media   (min-width:320px) and (max-width: 480px){
+    .bars{
+        padding-right:10px;
+        padding-left:10px;
+    }
+    .container{
+        margin:0px;
+    }
+}
+@media   (min-width:481px) and (max-width: 768px){
+    .bars{
+        padding-right:30px;
+        padding-left:30px;
+    }
+    .container{
+        margin:0px;
+    }
+}
+
+@media   (min-width:769px) and (max-width: 1024px){
+    
+  
+    .bars{
+        padding-right:100px;
+        padding-left:100px;
+    }
+    .container{
+        margin:0px;
+    }
+}
