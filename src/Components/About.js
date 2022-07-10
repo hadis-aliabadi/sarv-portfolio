@@ -13,7 +13,7 @@ const About = () => {
                 
                     <div className={styles.right} data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000"  >
                         <div className={styles.aboutme}>
-                            My Name is Hadis Eslami. I love to learn new Techology.My goal is try to become a professional software developer. In that case, I'm learning technology meticulously. Also trying to up-to-date my technological skills.
+                            My Name is Hadis Eslami, a Front-End Developer with ability to collaborate effectively with senior developers.My goal is try to become a senior developer. In that case, I'm always learning. Also trying to up-to-date my technological skills.
 
                         </div>
                         <div className={styles.btn}>
